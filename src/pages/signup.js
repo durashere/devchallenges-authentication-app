@@ -1,16 +1,16 @@
 import Head from 'next/head';
 import AuthLayout from '../components/layouts/AuthLayout';
-import LoginPage from '../components/templates/LoginPage';
+import SignUpPage from '../components/templates/SignUpPage';
 
-const login = () => {
+const signup = () => {
   return (
     <AuthLayout>
       <Head>
-        <title>Login</title>
+        <title>SignUp</title>
       </Head>
-      <LoginPage />
+      <SignUpPage />
     </AuthLayout>
   );
 };
 
-export default login;
+export default signup;
